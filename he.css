@@ -1,0 +1,49 @@
+/* Estilos padrão para telas maiores */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  #e91849;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px  #e91849(0, 0, 0, 0.1);
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.project-card h3 {
+    color:  #e91849;
+}
+
+.project-card p {
+    color:  #e91849;
+}
+
+/* Estilos para telas menores usando media queries */
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 10px;
+    }
+
+    .project-card {
+        padding: 10px;
+    }
+}
